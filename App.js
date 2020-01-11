@@ -3,8 +3,8 @@ import axios from 'axios';
 import { StyleSheet, Text, View, TextInput, ScrollView, Image, TouchableHighlight, Modal } from 'react-native';
 
 export default function App() {
-	const apiurl = "https://api.themoviedb.org/3/movie/550?api_key=b352acb03b406d4d28f615f20639cdc6"
-	//const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885"
+	//const apiurl = "https://api.themoviedb.org/3/movie/550?api_key=b352acb03b406d4d28f615f20639cdc6"
+	const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885"
 	const [state, setState] = useState({
 		s: "Enter a movie...",
 		results: [],
